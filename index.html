@@ -19,7 +19,7 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Montserrat:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800;900&family=Montserrat:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600;1,700&display=swap" rel="stylesheet">
   
   <!-- FontAwesome Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -29,11 +29,17 @@
 </head>
 <body>
 
-  <!-- Background Ambience -->
+  <!-- Background Ambience & Floating Astral Glyphs -->
   <div class="luxury-glow-wrapper">
     <div class="luxury-bg-glow glow-1"></div>
     <div class="luxury-bg-glow glow-2"></div>
     <div class="luxury-bg-glow glow-3"></div>
+    <div class="astral-glyph glyph-top-left">𓋹</div>
+    <div class="astral-glyph glyph-top-right">☸</div>
+    <div class="astral-glyph glyph-mid-left">𓆃</div>
+    <div class="astral-glyph glyph-mid-right">𓆸</div>
+    <div class="astral-glyph glyph-bottom-left">𓇬</div>
+    <div class="astral-glyph glyph-bottom-right">𓆙</div>
   </div>
 
   <!-- Header -->
@@ -45,7 +51,7 @@
         </div>
         <div class="brand-text">
           <span class="brand-title">SHIRVANSHAH</span>
-          <span class="brand-subtitle">RITUAL MASSAGE BAKU</span>
+          <span class="brand-subtitle"><span class="header-rune">✧</span> RITUAL MASSAGE BAKU <span class="header-rune">✧</span></span>
         </div>
       </a>
 
@@ -78,16 +84,18 @@
     </div>
   </header>
 
-  <!-- Hero Section -->
+  <!-- Hero Section (With Immediate Couple & Solo Gateways) -->
   <section class="hero-section" id="hero">
     <div class="hero-bg-overlay"></div>
     <div class="hero-glow-circle"></div>
 
     <div class="container hero-content">
+      
+      <!-- Top Emblem with Rich Ritual Runes -->
       <div class="ritual-emblem-badge">
         <span class="ornament-wing-left"></span>
         <span class="ritual-rune">☸</span>
-        <span class="badge-text">✦ LUXURY RITUAL SPA & MASSAGE CENTER ✦</span>
+        <span class="badge-text">✦ SACRED RITUAL SPA & WELLNESS TEMPLE ✦</span>
         <span class="ritual-rune">☸</span>
         <span class="ornament-wing-right"></span>
       </div>
@@ -98,9 +106,59 @@
       </h1>
 
       <p class="hero-desc">
-        Immerse yourself in authentic hammam rituals, natural wood saunas, and bespoke therapeutic massages crafted for complete body and soul revitalization in the heart of Baku.
+        Immerse yourself in authentic hammam rituals, cedarwood saunas, and bespoke therapeutic massage ceremonies crafted for complete bodily harmony and spiritual restoration.
       </p>
 
+      <!-- Immediate Couple & Solo Showcase (Visible Right Away) -->
+      <div class="hero-choice-portal">
+        <div class="portal-ornament-header">
+          <span class="portal-glyph">𓋹</span>
+          <span class="portal-title">SELECT YOUR DESIRED SANCTUARY</span>
+          <span class="portal-glyph">𓋹</span>
+        </div>
+
+        <div class="hero-choice-cards">
+          <!-- Couple Card -->
+          <a href="#experiences" class="hero-card-link" id="heroCoupleCard">
+            <div class="hero-portal-card gold-border-frame">
+              <div class="portal-corner-sigil tl">𓇬</div>
+              <div class="portal-corner-sigil br">𓆸</div>
+              <div class="portal-img-wrap">
+                <img src="images/cutluk.png" alt="Couple Ritual Experience Baku" class="portal-img">
+                <div class="portal-badge couple-badge">
+                  <i class="fa-solid fa-heart"></i> COUPLE EXPERIENCE
+                </div>
+              </div>
+              <div class="portal-info">
+                <h3>Couples Ritual Package</h3>
+                <p>Private dual VIP suite, synchronized therapies & candlelit serene ambience.</p>
+                <span class="portal-btn-label">Explore Package <i class="fa-solid fa-arrow-right"></i></span>
+              </div>
+            </div>
+          </a>
+
+          <!-- Solo Card -->
+          <a href="#experiences" class="hero-card-link" id="heroSoloCard">
+            <div class="hero-portal-card gold-border-frame">
+              <div class="portal-corner-sigil tl">𓆃</div>
+              <div class="portal-corner-sigil br">𓆙</div>
+              <div class="portal-img-wrap">
+                <img src="images/tek.png" alt="Single Individual Ritual Baku" class="portal-img">
+                <div class="portal-badge solo-badge">
+                  <i class="fa-solid fa-user"></i> SOLO SANCTUARY
+                </div>
+              </div>
+              <div class="portal-info">
+                <h3>Individual VIP Ritual</h3>
+                <p>Dedicated master therapist, customized pressure & deep muscle tension release.</p>
+                <span class="portal-btn-label">Explore Package <i class="fa-solid fa-arrow-right"></i></span>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!-- Hero Call-To-Action Buttons -->
       <div class="hero-cta-group">
         <a href="https://wa.me/994104783528?text=Hello,%20I%20would%20like%20to%20book%20a%20reservation%20at%20Shirvanshah%20Ritual%20Massage%20Baku" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp-hero">
           <i class="fa-brands fa-whatsapp"></i>
@@ -112,7 +170,7 @@
         </a>
       </div>
 
-      <!-- Quick Highlights -->
+      <!-- Quick Highlights Bar -->
       <div class="hero-features-bar">
         <div class="feature-pill">
           <div class="pill-icon"><i class="fa-solid fa-clock"></i></div>
@@ -143,17 +201,18 @@
           </div>
         </div>
       </div>
+
     </div>
   </section>
 
   <!-- Ornate Separator with Ritual Glyphs -->
   <div class="ornate-separator">
     <div class="line"></div>
-    <div class="ritual-sigil-icon">✧ 𓇬 ✧</div>
+    <div class="ritual-sigil-icon">✧ 𓋹 ☸ 𓇬 ✧</div>
     <div class="line"></div>
   </div>
 
-  <!-- Welcome Choice Section: Couple vs Solo Rituals -->
+  <!-- Detailed Choice Experience Section: Couple vs Solo Rituals -->
   <section class="choice-experience-section" id="experiences">
     <div class="container">
       <div class="section-header text-center">
@@ -161,16 +220,17 @@
           <i class="fa-solid fa-gem"></i> TAILORED EXPERIENCES
         </div>
         <h2 class="section-title">
-          Choose Your <span class="gold-gradient-text">Wellness Journey</span>
+          Bespoke <span class="gold-gradient-text">Wellness Journeys</span>
         </h2>
         <p class="section-subtitle">
-          Whether sharing tranquil moments together or enjoying an intimate private escape, our dedicated master therapists are here for you.
+          Whether sharing tranquil moments together or enjoying an intimate private escape, our dedicated master therapists craft every detail to perfection.
         </p>
       </div>
 
       <div class="experience-showcase-grid">
         <!-- Couples Card -->
         <div class="experience-card gold-border-frame">
+          <div class="card-mystic-border-glow"></div>
           <div class="experience-img-container">
             <img src="images/cutluk.png" alt="Couple Ritual Experience Baku" class="experience-photo">
             <div class="experience-badge">
@@ -180,7 +240,7 @@
           </div>
           <div class="experience-info">
             <div class="experience-meta-title">
-              <span class="ritual-small-tag">SYNCHRONIZED HARMONY</span>
+              <span class="ritual-small-tag">SYNCHRONIZED HARMONY ✦ 𓆸</span>
               <h3>Couples Ritual Package</h3>
             </div>
             <p>
@@ -199,6 +259,7 @@
 
         <!-- Solo / Single Card -->
         <div class="experience-card gold-border-frame">
+          <div class="card-mystic-border-glow"></div>
           <div class="experience-img-container">
             <img src="images/tek.png" alt="Single Individual Ritual Baku" class="experience-photo">
             <div class="experience-badge">
@@ -208,7 +269,7 @@
           </div>
           <div class="experience-info">
             <div class="experience-meta-title">
-              <span class="ritual-small-tag">PERSONAL RESTORATION</span>
+              <span class="ritual-small-tag">PERSONAL RESTORATION ✦ 𓆃</span>
               <h3>Individual VIP Ritual</h3>
             </div>
             <p>
@@ -231,7 +292,7 @@
   <!-- Ornate Separator with Ritual Glyphs -->
   <div class="ornate-separator">
     <div class="line"></div>
-    <div class="ritual-sigil-icon">✦ 𓆃 ✦</div>
+    <div class="ritual-sigil-icon">✦ 𓆃 𓋹 𓆸 ✦</div>
     <div class="line"></div>
   </div>
 
@@ -327,7 +388,7 @@
   <!-- Ornate Separator with Ritual Glyphs -->
   <div class="ornate-separator">
     <div class="line"></div>
-    <div class="ritual-sigil-icon">✦ 𓆸 ✦</div>
+    <div class="ritual-sigil-icon">✦ 𓆸 ☸ 𓆙 ✦</div>
     <div class="line"></div>
   </div>
 
@@ -355,6 +416,7 @@
           <div class="card-image-box">
             <img src="images/doluhamam.png" alt="Royal Turkish Hammam Baku" class="card-img">
             <span class="card-badge">Turkish Bath</span>
+            <div class="card-sigil-mark">𓋹</div>
           </div>
           <div class="card-body">
             <h3 class="card-title">Royal Turkish Hammam Ritual</h3>
@@ -380,6 +442,7 @@
           <div class="card-image-box">
             <img src="images/vip-massage.png" alt="VIP Emerald Marble Suite" class="card-img">
             <span class="card-badge">VIP Chamber</span>
+            <div class="card-sigil-mark">𓇬</div>
           </div>
           <div class="card-body">
             <h3 class="card-title">VIP Emerald Chamber Therapy</h3>
@@ -405,6 +468,7 @@
           <div class="card-image-box">
             <img src="images/mystic4.png" alt="Aroma Therapy Ritual Baku" class="card-img">
             <span class="card-badge">Aroma Therapy</span>
+            <div class="card-sigil-mark">𓆸</div>
           </div>
           <div class="card-body">
             <h3 class="card-title">Aroma Therapy & Candle Elixir</h3>
@@ -430,6 +494,7 @@
           <div class="card-image-box">
             <img src="images/mystic3.png" alt="Hot Stone Ritual Baku" class="card-img">
             <span class="card-badge">Hot Stone</span>
+            <div class="card-sigil-mark">☸</div>
           </div>
           <div class="card-body">
             <h3 class="card-title">Mystic Hot Stone Ritual</h3>
@@ -455,6 +520,7 @@
           <div class="card-image-box">
             <img src="images/sauna.png" alt="Finnish Herbal Sauna" class="card-img">
             <span class="card-badge">Herbal Sauna</span>
+            <div class="card-sigil-mark">𓆃</div>
           </div>
           <div class="card-body">
             <h3 class="card-title">Finnish Herbal Cedar Sauna</h3>
@@ -480,6 +546,7 @@
           <div class="card-image-box">
             <img src="images/kurna.png" alt="Antique Basin Hydrotherapy" class="card-img">
             <span class="card-badge">Hydrotherapy</span>
+            <div class="card-sigil-mark">𓆙</div>
           </div>
           <div class="card-body">
             <h3 class="card-title">Antique Kurna Water Ceremony</h3>
@@ -508,7 +575,7 @@
   <!-- Ornate Separator with Ritual Glyphs -->
   <div class="ornate-separator">
     <div class="line"></div>
-    <div class="ritual-sigil-icon">✦ 𓆙 ✦</div>
+    <div class="ritual-sigil-icon">✦ 𓋹 𓇬 ☸ ✦</div>
     <div class="line"></div>
   </div>
 
